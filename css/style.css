@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Truculenta", sans-serif;
+}
+
+.title {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+input[type="text"]:focus {
+  background-color: #80ff80;
+}
+
+input[type="email"]:focus {
+  background-color: #80ff80;
+}
+
+input[type="tel"]:focus {
+  background-color: #80ff80;
+}
+
+input[type="number"]:focus {
+  background-color: #80ff80;
+}
+
+header {
+  width: 100%;
+  background-color: #27275e;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+header h1 {
+  font-size: 3rem;
+}
+
+.signup_title {
+  padding: 1rem;
+  border-bottom: 10px black double;
+  color: black;
+  text-align: center;
+}
+.signup_title p {
+  font-size: 1.2rem;
+}
+
+form {
+  padding: 1rem;
+}
+form .first_fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+form .first_fieldset legend {
+  font-weight: bold;
+}
+form .first_fieldset label {
+  display: block;
+}
+form .first_fieldset select {
+  width: 100%;
+  padding: 0.4rem;
+  background-color: #e4e4e4;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 0.6rem;
+}
+form .first_fieldset input[type="number"] {
+  width: 40%;
+}
+form .first_fieldset input {
+  width: 100%;
+  padding: 0.4rem;
+  background-color: #e4e4e4;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 0.6rem;
+}
+form .first_fieldset input::placeholder {
+  text-align: right;
+  text-transform: capitalize;
+}
+form .second_fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+form .second_fieldset > :nth-child(2) {
+  margin-bottom: 0.5rem;
+}
+form .second_fieldset > :nth-child(6) {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+form .second_fieldset input {
+  margin-right: 0.4rem;
+}
+form .second_fieldset textarea {
+  background-color: #e4e4e4;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem;
+}
+form .second_fieldset textarea:focus {
+  background-color: #80ff80;
+}
+form button {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #0dbe92;
+  color: white;
+  font-size: 1.2rem;
+}
+form .footer {
+  text-align: center;
+}

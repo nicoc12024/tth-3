@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Truculenta:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>THE CODE REVIEW</title>
+  </head>
+  <body>
+    <header>
+      <h1>THE CODE REVIEW</h1>
+    </header>
+    <div class="container">
+      <div class="signup_title">
+        <h2 class="title">Sign up for our newsletter</h2>
+        <p>Get the latest news on how your code is doing right in your inbox</p>
+      </div>
+      <form>
+        <fieldset class="first_fieldset">
+          <legend class="title">Contact Information</legend>
+
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="required" />
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="required" />
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" />
+
+          <label for="street">Street Address</label>
+          <input type="text" id="street" name="street_address" />
+
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" />
+
+          <label for="state">State</label>
+          <select name="state" id="state">
+            <option>--Select a City--</option>
+            <option value="stockholm">Stockholm</option>
+            <option value="bandhagen">Bandhagen</option>
+            <option value="solna">Solna</option>
+            <option value="skantsull">Skantsull</option>
+          </select>
+
+          <label for="zip_code">Zip Code</label>
+          <input type="number" id="zip_code" name="zip_code" class="zip_code" />
+        </fieldset>
+
+        <fieldset class="second_fieldset">
+          <legend class="title">Newsletter</legend>
+          <p>Select the newsletters you would like to recieve</p>
+          <div>
+            <input type="checkbox" name="html" value="html_news" id="html" />
+            <label for="html">HTML News</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="css" value="css_news" id="css" />
+            <label for="css">CSS News</label>
+          </div>
+
+          <div>
+            <input
+              type="checkbox"
+              name="javascript"
+              value="javascript_news"
+              id="javascript"
+            />
+            <label for="javascript">Javascript News</label>
+          </div>
+
+          <p>Newsletter format</p>
+          <input type="radio" name="selection" value="html_format" id="html_" />
+          <label for="html_">HTML</label>
+          <input type="radio" name="selection" value="plan_format" id="text" />
+          <label for="text">Plain text</label>
+
+          <p>Other topic you would like to hear about</p>
+          <textarea name="message" id="message"></textarea>
+        </fieldset>
+
+        <button type="submit">Sign Up</button>
+        <p class="footer">Copyright The Code Review</p>
+      </form>
+    </div>
+  </body>
+</html>
